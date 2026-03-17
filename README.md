@@ -9,6 +9,7 @@ This repository is for **user support** (issues, troubleshooting, and help reque
 ## Privacy Policy
 
 - Privacy policy: `https://colsanmarco.github.io/smart-clicker-privacy/`
+- Privacy policy repository: `https://github.com/colsanmarco/smart-clicker-privacy`
 
 ## Report a bug
 
@@ -19,4 +20,3 @@ When reporting a bug, please include:
 - OS (Windows/macOS/Linux)
 - Steps to reproduce
 - Logs from the extension (Options → Logs)
-
