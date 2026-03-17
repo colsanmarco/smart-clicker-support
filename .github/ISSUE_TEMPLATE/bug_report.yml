@@ -1,0 +1,53 @@
+name: Bug report
+description: Report a problem with Smart Clicker
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide step-by-step instructions.
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. Start ...
+    validations:
+      required: true
+  - type: input
+    id: ext_version
+    attributes:
+      label: Extension version
+      placeholder: "2.4.1"
+    validations:
+      required: true
+  - type: input
+    id: browser_version
+    attributes:
+      label: Browser version
+      placeholder: "Chrome 145.0.x"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: "Windows / macOS / Linux (Arch, Ubuntu, ...)"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs (optional)
+      description: Paste logs from the extension (Options → Logs).
+      render: text
+    validations:
+      required: false
+
